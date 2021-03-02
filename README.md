@@ -72,6 +72,18 @@ npm run dev
 
 Open http://localhost:8080 with your favorite browser to see your blog.
 
+### Netlify CMS locally
+
+Netlify CMS locally uses the .env file to determine the port to run on.
+
+Run:
+
+```
+npx netlify-cms-proxy-server
+```
+
+Open http://localhost:8080/admin to see the local Netlify admin, updates in the CMS will change your content files.
+
 ### Project structure
 
 ```
